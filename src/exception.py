@@ -1,5 +1,4 @@
 import sys
-
 def get_error_message(error, error_detail:sys):
     _,_,exc_tb=error_detail.exc_info()
     filename= str(exc_tb.tb_frame.f_code.co_filename)
